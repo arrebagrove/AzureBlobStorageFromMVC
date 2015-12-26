@@ -15,8 +15,8 @@ namespace UserImageUploadAzure.Controllers
     {
         BlobUtility utility;
         ApplicationDbContext db; 
-        string accountName = "debugmodelab";
-        string accountKey = "Lx+CqqV/BSZn49DkaBTbW5mARekRCN+64QFDSoJaTiwpt8UZDa650VGnFgcQizD2ihdRT7Xwb1mI5zjo0n1i2A==";
+        string accountName = "YOURACCOUNTNAME";
+        string accountKey = "YOURACCOUNTKEY";
         public HomeController()
         {
             utility = new BlobUtility(accountName, accountKey);
